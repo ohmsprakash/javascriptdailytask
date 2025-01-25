@@ -4,6 +4,11 @@ body{
     /* grid-template-rows: auto; */
     gap: 10px;
 }
+@media screen and (width<576px){
+    body{
+        grid-template-columns: auto;
+    }
+}
 .container{
     width: 100%;
     height: auto;
